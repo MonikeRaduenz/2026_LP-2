@@ -11,18 +11,18 @@ Repositório da atividade de Estruturas de Seleção utilizando a linguagem C
 
 4. Faça um programa usando else if que peça dois números e mostre qual é o maior deles. Se forem iguais, informar que são iguais.
 
-5. Faça um programa usando estruturas aninhadas que leia a idade de uma pessoa e informe a sua classe eleitoral:
-• Não eleitor (abaixo de 18 anos);
-• Eleitor obrigatório (de 18 a 65 anos);
-• Eleitor facultativo (acima de 65 anos).
+5. Faça um programa usando estruturas aninhadas que leia a idade de uma pessoa e informe a sua classe eleitoral:<br>
+• Não eleitor (abaixo de 18 anos); <br>
+• Eleitor obrigatório (de 18 a 65 anos);<br>
+• Eleitor facultativo (acima de 65 anos).<br>
 
 6. Faça um programa que peça três números e diga qual o maior entre os três.
 
-7. Dados três valores X, Y e Z, verificar se eles podem ser os comprimentos dos lados de um triângulo e, se forem verificar se é um triângulo equilátero, isósceles ou escalenos. Se eles não formarem um triângulo, escrever a mensagem. Considere as seguintes propriedades:
-• Equiláteros: tem os comprimentos dos três lados iguais;
-• Isósceles: tem os comprimentos de quaisquer dois lados iguais;
-• Escaleno: tem os comprimentos dos três lados diferentes.
+7. Dados três valores X, Y e Z, verificar se eles podem ser os comprimentos dos lados de um triângulo e, se forem verificar se é um triângulo equilátero, isósceles ou escalenos. Se eles não formarem um triângulo, escrever a mensagem. Considere as seguintes propriedades:<br>
+• Equiláteros: tem os comprimentos dos três lados iguais;<br>
+• Isósceles: tem os comprimentos de quaisquer dois lados iguais;<br>
+• Escaleno: tem os comprimentos dos três lados diferentes.<br>
 
-8. Faça um programa que verifique se o ano é bissexto. O ano deve ser informado pelo usuário com 04 dígitos e não pode ser menor ou igual a 0. Para saber se o ano é bissexto:
-• Deve ser divisível por 4 e não divisível por 100 ou;
-• Deve ser divisível por 400.
+8. Faça um programa que verifique se o ano é bissexto. O ano deve ser informado pelo usuário com 04 dígitos e não pode ser menor ou igual a 0. Para saber se o ano é bissexto:<br>
+• Deve ser divisível por 4 e não divisível por 100 ou;<br>
+• Deve ser divisível por 400.<br>
