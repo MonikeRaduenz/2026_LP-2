@@ -2,20 +2,26 @@
 #include <stdlib.h>
 
 int main (){
-    int primeiro, segundo, terceiro;
-    printf("Insira o primeiro numero:\n");
-    scanf("%i", &primeiro);
-    printf("Insira o segundo numero:\n");
-    scanf("%i", &segundo);
-    printf("Insira o terceiro numero:\n");
-    scanf("%i", &terceiro);
-    if (primeiro > segundo && primeiro > terceiro){
-        printf("Primeiro e o maior numero: %i\n", primeiro);
-    }
-    else if (segundo > primeiro && segundo > terceiro){
-        printf("Segundo e o maior numero: %i\n", segundo);
+    int valorx, valory, valorz;
+    printf("Insira o valor de x:\n");
+    scanf("%i", &valorx);
+    printf("Insira o valor de y:\n");
+    scanf("%i", &valory);
+    printf("Insira o valor de z:\n");
+    scanf("%i", &valorz);
+    if (valorx > 0  && valory > 0 && valorz > 0){
+        if (valorx == valory && valory == valorz){
+            printf("E um triangulo equilatero!");
+        }
+        else if (valorx == valory | valorx == valorz | valory == valorz)
+        {
+            printf("E um triangulo Isoceles!");
+        }
+        else {
+            printf("E um triangulo escaleno!");
+        }
     }
     else {
-        printf("Terceiro e o maior numero: %i\n", terceiro);
+        printf("Nao e um triangulo");
     }
 }    
